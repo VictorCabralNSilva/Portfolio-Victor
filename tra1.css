@@ -1,0 +1,480 @@
+body {
+  background-color: black;
+  margin-top:0;
+}
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+}
+
+/* MENU */
+.interface {
+  max-width: 100%;
+  margin: auto;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+  height: 100px;
+  padding-top: 0; /* Ajustando a propriedade padding-top */
+}
+
+.menu-pc ul li a {
+  text-decoration: none;
+  color: white;
+  font-family:'Courier New', Courier, monospace
+}
+
+
+.menu-pc ul li button {
+  background-color: rgb(9, 9, 126);
+  border-radius: 10px;
+  width: 113px;
+  height: 48px;
+  border:none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-inline: 40px;
+  transition: transform 0.3s ease;
+}
+
+.menu-pc ul li button:hover {
+  transform: scale(1.1);
+}
+
+.menu-pc ul {
+  list-style-type: none;
+  padding: 10px 180px;
+  font-weight: 900;
+}
+
+
+/* PAGINA INICIO */
+.nome{
+  color: rgb(9, 9, 126);
+  margin-top: 0px;
+  margin-left: 30px;
+  padding:150px 0 0 750px;
+  justify-content: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.img1 {
+  width: 400px;
+  margin-left: 795px;
+  margin-top: -210px;
+  cursor: default;
+}
+.apresentacao{
+  color: white;
+  padding: 250px 0 0 135px;
+  font-weight: bolder;
+  font-size: 30px;
+  height: 30px;
+  margin-right: 100px;
+}
+
+.apresentacao1{
+  color: white;
+  font-weight: bolder;
+  font-size: 27px;
+  height: 25px;
+  padding: 0 0 0 163px;
+}
+
+
+
+
+/* PAGINA SOBRE */
+.falando-sobre{
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  padding: 0 20px 200px 0px;
+  margin-left: 25px;
+}
+
+.eu{
+ background-color: rgb(10, 10, 10);
+ margin-left: 30px;
+ border-radius: 30px ;
+ width: 600px;
+ height: 520px;
+}
+
+.img2 {
+  margin-left: 700px;
+  margin-top: -550px;
+  width: 600px;
+  cursor: default;
+}
+
+/* PAGINA PORTFOLIO */
+
+h1{
+  color: white;
+  margin-top: 200px;
+  margin-left: 90px;
+}
+
+.spotify{
+ background-color: rgb(10, 10, 10);
+ margin-left: 30px;
+ margin-top: 0px;
+ border-radius: 30px ;
+ width: 400px;
+ height: 200px;
+ color: white;
+}
+
+.oi {
+font-size: 25px;
+margin-left: 96px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.spotify .txspot{
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  padding: 0 20px 200px 0px;
+  margin-left: 25px;
+}
+
+.spot{
+ color: rgb(0, 0, 255);
+}
+
+.img3{
+  margin-left: 630px;
+  margin-top: -300px;
+  width: 650px;
+  cursor: default;
+}
+
+
+
+/* NOVIDADES */
+.novidade {
+ background-color: rgb(10, 10, 10);
+ margin-left: 30px;
+ margin-top: 0px;
+ border-radius: 30px ;
+ width: 1270px;
+ height: 400px;
+ color: white;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  margin-top: 50px;
+}
+
+.ttnovidade{
+  padding-top: 175px;
+  text-align: center;
+}
+
+.txnovidade{
+  text-align: center;
+}
+
+
+/* CONTATO */
+
+h4{
+  color: white;
+  margin-left: 280px;
+  padding-top: 150px;
+  font-size: 20px;
+}
+
+.email, .botao{
+  border-radius: 20px;
+  border: none;
+  height: 28px;
+  width: 150px;
+  margin-left: 160px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.card {
+  width: fit-content;
+  height: fit-content;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 850px;
+  gap: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  margin-top: -160px;
+}
+
+
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(10, 10, 10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.socialSvg {
+  width: 25px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity:1;
+}
+}
+
+/* Estilos para telas menores */
+@media only screen and (max-width: 1115px) {
+
+  .header {
+    height: 0px; /* Reduz a altura do cabeçalho */
+  }
+
+  .menu-pc ul {
+    padding: 10px 70px; /* Ajusta o preenchimento do menu */
+  }
+  /* INCIO */
+  .nome {
+    padding: 150px 0 0 610px; /* Ajusta o posicionamento do nome */
+  }
+
+  .apresentacao {
+    padding: 310px 0 0 30px; /* Ajusta o posicionamento da apresentação */
+  }
+
+  .apresentacao1 {
+    padding: 0 0 0 55px; /* Ajusta o posicionamento da segunda linha da apresentação */
+  }
+
+  .eu {
+    margin-left: 10px; /* Ajusta a margem do bloco de texto sobre */
+    width: calc(100% - 20px); /* Ajusta a largura do bloco de texto sobre */
+  }
+
+  .img1{
+    padding: 0 650px ;
+    margin: 0;
+    margin-top: -270px;
+    ;
+  }
+
+  /* SOBRE */
+  .img2 {
+    margin-left: 550px; /* Ajusta a margem da imagem sobre */
+    width: 500px; /* Ajusta a largura da imagem sobre */
+    margin-top: -470px; /* Ajusta a margem superior da imagem sobre */
+  }
+
+
+
+  .falando-sobre {
+    font-size: 17px;
+  }
+
+  /* POTFOLIO */
+
+  .img3 {
+    margin-left: 530px; /* Ajusta a margem da imagem do portfólio */
+    width: 500px; /* Ajusta a largura da imagem do portfólio */
+    margin-top: -250px; /* Ajusta a margem superior da imagem do portfólio */
+  }
+
+  .port {
+    margin-left: 10px; /* Ajusta a margem do bloco de texto do portfólio */
+    width: calc(100% - 20px); /* Ajusta a largura do bloco de texto do portfólio */
+  }
+
+/* NOVIDADES */
+
+  .nov {
+    margin-left: 0px; /* Ajusta a margem do bloco de texto de novidades */
+  }
+
+  .novidade{
+    width: 1020px;
+  }
+/* CONTATO */
+  .contato {
+    padding-top: 0px; /* Ajusta o preenchimento do bloco de contato */
+  }
+
+  .card {
+    padding: 0px 700px; /* Ajusta o preenchimento do bloco de mídias sociais */
+    margin-top: -200px; /* Ajusta a margem superior do bloco de mídias sociais */
+  }
+}
+
+
+@media only screen and (max-width: 430px) {
+
+  .header {
+    width: 500px;
+  }
+
+.menu-pc ul li button {
+  width: 70px;
+  height: 40px;
+  margin-inline: 5px;
+  font-size: 16px;
+}
+
+  .menu-pc ul {
+    padding: 10px 0px; /* Ajusta o preenchimento do menu */
+  }
+
+  /* INCIO */
+  .nome {
+    padding: 450px 0 0 16px; /* Ajusta o posicionamento do nome */
+    font-size: 22px;
+    margin: 0;
+  }
+
+  .apresentacao {
+    padding: 200px 0 0 50px; /* Ajusta o posicionamento da apresentação */
+    margin: 0;
+  }
+
+  .apresentacao1 {
+    padding: 50px 0 0 55px; /* Ajusta o posicionamento da segunda linha da apresentação */
+    margin: 0;
+  }
+
+  .eu {
+    margin-left: 10px; /* Ajusta a margem do bloco de texto sobre */
+    width: calc(100% - 20px); /* Ajusta a largura do bloco de texto sobre */
+  }
+
+  .img1{
+    padding: 0 0 0 10px ;
+    margin: 0;
+    margin-top: 150px;
+    ;
+  }
+
+/* SOBRE */
+.img2 {
+  margin-left: 30px; /* Ajusta a margem da imagem sobre */
+  width: 360px; /* Ajusta a largura da imagem sobre */
+  margin-top: 10px; /* Ajusta a margem superior da imagem sobre */
+}
+
+.falando-sobre {
+  font-size: 15px;
+  margin-top: -60px;
+}
+
+.eu{
+  height: 450px;
+}
+
+/* POTFOLIO */
+  
+.img3 {
+  margin-left: 5px; /* Ajusta a margem da imagem do portfólio */
+  width: 410px; /* Ajusta a largura da imagem do portfólio */
+  margin-top: 0px; /* Ajusta a margem superior da imagem do portfólio */
+}
+
+.port {
+  margin: 0px; /* Ajusta a margem do bloco de texto do portfólio */
+}
+
+.spotify{ 
+  width: 415px;
+  margin: 0;
+}
+
+/* NOVIDADES */
+
+.nov {
+  margin-left: 0px; /* Ajusta a margem do bloco de texto de novidades */
+
+}
+
+.novidade{
+  width: 415px;
+  margin: 0;
+  margin-top: 150px;
+}
+
+/* CONTATO */
+
+.contato {
+  padding-top: 50px; /* Ajusta o preenchimento do bloco de contato */
+}
+
+.card {
+  padding: 0px 100px; /* Ajusta o preenchimento do bloco de mídias sociais */
+  margin-top: 0 /* Ajusta a margem superior do bloco de mídias sociais */
+}
+
+.qual{
+  margin: 0;
+  
+}
+
+h4{
+  margin: 0px;
+  padding-left: 100px;
+}
+}
