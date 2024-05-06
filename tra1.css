@@ -3,6 +3,10 @@ body {
   margin-top:0;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 * {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 0;
@@ -110,12 +114,12 @@ body {
  margin-left: 30px;
  border-radius: 30px ;
  width: 600px;
- height: 520px;
+ height: 605px;
 }
 
 .img2 {
   margin-left: 700px;
-  margin-top: -550px;
+  margin-top: -625px;
   width: 600px;
   cursor: default;
 }
@@ -166,6 +170,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 /* NOVIDADES */
+
 .novidade {
  background-color: rgb(10, 10, 10);
  margin-left: 30px;
@@ -195,11 +200,12 @@ h2{
 
 /* CONTATO */
 
+
 h4{
   color: white;
   margin-left: 280px;
   padding-top: 150px;
-  font-size: 20px;
+  font-size: 20px; 
 }
 
 .email, .botao{
@@ -372,25 +378,25 @@ h4{
   }
 
 .menu-pc ul li button {
-  width: 70px;
-  height: 40px;
-  margin-inline: 5px;
-  font-size: 16px;
+  width: 74px;
+  height: 60px;
+  margin-inline: 1px;
+  font-size: 14px;
 }
 
   .menu-pc ul {
-    padding: 10px 0px; /* Ajusta o preenchimento do menu */
+    padding: 20px 0px; /* Ajusta o preenchimento do menu */
   }
 
   /* INCIO */
   .nome {
-    padding: 450px 0 0 16px; /* Ajusta o posicionamento do nome */
+    padding: 400px 0 0 7px; /* Ajusta o posicionamento do nome */
     font-size: 22px;
     margin: 0;
   }
 
   .apresentacao {
-    padding: 200px 0 0 50px; /* Ajusta o posicionamento da apresentação */
+    padding: 150px 0 0 50px; /* Ajusta o posicionamento da apresentação */
     margin: 0;
   }
 
@@ -413,18 +419,18 @@ h4{
 
 /* SOBRE */
 .img2 {
-  margin-left: 30px; /* Ajusta a margem da imagem sobre */
-  width: 360px; /* Ajusta a largura da imagem sobre */
-  margin-top: 10px; /* Ajusta a margem superior da imagem sobre */
+  margin-left: 25px; /* Ajusta a margem da imagem sobre */
+  width: 350px; /* Ajusta a largura da imagem sobre */
+  margin-top: 20px; /* Ajusta a margem superior da imagem sobre */
 }
 
 .falando-sobre {
   font-size: 15px;
-  margin-top: -60px;
+  margin-top: -40px;
 }
 
 .eu{
-  height: 450px;
+  height: 570px;
 }
 
 /* POTFOLIO */
@@ -440,8 +446,8 @@ h4{
 }
 
 .spotify{ 
-  width: 415px;
-  margin: 0;
+  width: 400px;
+  margin: 0px;
 }
 
 /* NOVIDADES */
@@ -465,7 +471,7 @@ h4{
 
 .card {
   padding: 0px 100px; /* Ajusta o preenchimento do bloco de mídias sociais */
-  margin-top: 0 /* Ajusta a margem superior do bloco de mídias sociais */
+  margin: 0 /* Ajusta a margem superior do bloco de mídias sociais */
 }
 
 .qual{
@@ -473,8 +479,14 @@ h4{
   
 }
 
+.email, .botao{
+  margin-top: 10%;
+  margin-left: 23%;
+}
+  
 h4{
   margin: 0px;
-  padding-left: 100px;
+  padding-left: 20%;
+  padding-top: 30%;
 }
 }
