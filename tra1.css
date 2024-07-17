@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  margin-top:0;
+  margin-top: 0;
 }
 
 body.no-scroll {
@@ -8,7 +8,7 @@ body.no-scroll {
 }
 
 * {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 0;
 }
 
@@ -34,16 +34,15 @@ body.no-scroll {
 .menu-pc ul li a {
   text-decoration: none;
   color: white;
-  font-family:'Courier New', Courier, monospace
+  font-family: "Courier New", Courier, monospace;
 }
-
 
 .menu-pc ul li button {
   background-color: rgb(9, 9, 126);
   border-radius: 10px;
   width: 113px;
   height: 48px;
-  border:none;
+  border: none;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
@@ -61,13 +60,12 @@ body.no-scroll {
   font-weight: 900;
 }
 
-
 /* PAGINA INICIO */
-.nome{
+.nome {
   color: rgb(9, 9, 126);
   margin-top: 0px;
   margin-left: 30px;
-  padding:150px 0 0 750px;
+  padding: 150px 0 0 750px;
   justify-content: center;
   font-weight: bold;
   text-transform: uppercase;
@@ -80,7 +78,7 @@ body.no-scroll {
   margin-top: -210px;
   cursor: default;
 }
-.apresentacao{
+.apresentacao {
   color: white;
   padding: 250px 0 0 135px;
   font-weight: bolder;
@@ -89,7 +87,7 @@ body.no-scroll {
   margin-right: 100px;
 }
 
-.apresentacao1{
+.apresentacao1 {
   color: white;
   font-weight: bolder;
   font-size: 27px;
@@ -97,11 +95,8 @@ body.no-scroll {
   padding: 0 0 0 163px;
 }
 
-
-
-
 /* PAGINA SOBRE */
-.falando-sobre{
+.falando-sobre {
   font-size: 20px;
   color: white;
   text-align: justify;
@@ -109,12 +104,12 @@ body.no-scroll {
   margin-left: 25px;
 }
 
-.eu{
- background-color: rgb(10, 10, 10);
- margin-left: 30px;
- border-radius: 30px ;
- width: 600px;
- height: 605px;
+.eu {
+  background-color: rgb(10, 10, 10);
+  margin-left: 30px;
+  border-radius: 30px;
+  width: 600px;
+  height: 605px;
 }
 
 .img2 {
@@ -126,29 +121,29 @@ body.no-scroll {
 
 /* PAGINA PORTFOLIO */
 
-h1{
+h1 {
   color: white;
   margin-top: 200px;
   margin-left: 90px;
 }
 
-.spotify{
- background-color: rgb(10, 10, 10);
- margin-left: 30px;
- margin-top: 0px;
- border-radius: 30px ;
- width: 400px;
- height: 200px;
- color: white;
+.spotify {
+  background-color: rgb(10, 10, 10);
+  margin-left: 30px;
+  margin-top: 0px;
+  border-radius: 30px;
+  width: 400px;
+  height: 200px;
+  color: white;
 }
 
 .oi {
-font-size: 25px;
-margin-left: 96px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  margin-left: 96px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.spotify .txspot{
+.spotify .txspot {
   font-size: 20px;
   color: white;
   text-align: justify;
@@ -156,59 +151,56 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 25px;
 }
 
-.spot{
- color: rgb(0, 0, 255);
+.spot {
+  color: rgb(0, 0, 255);
 }
 
-.img3{
+.img3 {
   margin-left: 630px;
   margin-top: -300px;
   width: 650px;
   cursor: default;
 }
 
-
-
 /* NOVIDADES */
 
 .novidade {
- background-color: rgb(10, 10, 10);
- margin-left: 30px;
- margin-top: 0px;
- border-radius: 30px ;
- width: 1270px;
- height: 400px;
- color: white;
+  background-color: rgb(10, 10, 10);
+  margin-left: 30px;
+  margin-top: 0px;
+  border-radius: 30px;
+  width: 1270px;
+  height: 400px;
+  color: white;
 }
 
-h2{
+h2 {
   color: white;
   text-align: center;
   padding-top: 100px;
   margin-top: 50px;
 }
 
-.ttnovidade{
+.ttnovidade {
   padding-top: 175px;
   text-align: center;
 }
 
-.txnovidade{
+.txnovidade {
   text-align: center;
 }
 
-
 /* CONTATO */
 
-
-h4{
+h4 {
   color: white;
   margin-left: 280px;
   padding-top: 150px;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
-.email, .botao{
+.email,
+.botao {
   border-radius: 20px;
   border: none;
   height: 28px;
@@ -232,7 +224,6 @@ h4{
   margin-top: -160px;
 }
 
-
 .socialContainer {
   width: 52px;
   height: 52px;
@@ -241,28 +232,28 @@ h4{
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 /* instagram*/
 .containerOne:hover {
   background-color: #d62976;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 /* linkdin*/
 .containerThree:hover {
   background-color: #0072b1;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 /* Whatsapp*/
 .containerFour:hover {
-  background-color: #128C7E;
-  transition-duration: .3s;
+  background-color: #128c7e;
+  transition-duration: 0.3s;
 }
 
 .socialContainer:active {
   transform: scale(0.9);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 .socialSvg {
@@ -285,13 +276,12 @@ h4{
 
   100% {
     transform: translateY(0);
-    opacity:1;
-}
+    opacity: 1;
+  }
 }
 
 /* Estilos para telas menores */
 @media only screen and (max-width: 1115px) {
-
   .header {
     height: 0px; /* Reduz a altura do cabeçalho */
   }
@@ -317,11 +307,10 @@ h4{
     width: calc(100% - 20px); /* Ajusta a largura do bloco de texto sobre */
   }
 
-  .img1{
-    padding: 0 650px ;
+  .img1 {
+    padding: 0 650px;
     margin: 0;
     margin-top: -270px;
-    ;
   }
 
   /* SOBRE */
@@ -330,8 +319,6 @@ h4{
     width: 500px; /* Ajusta a largura da imagem sobre */
     margin-top: -470px; /* Ajusta a margem superior da imagem sobre */
   }
-
-
 
   .falando-sobre {
     font-size: 17px;
@@ -347,19 +334,21 @@ h4{
 
   .port {
     margin-left: 10px; /* Ajusta a margem do bloco de texto do portfólio */
-    width: calc(100% - 20px); /* Ajusta a largura do bloco de texto do portfólio */
+    width: calc(
+      100% - 20px
+    ); /* Ajusta a largura do bloco de texto do portfólio */
   }
 
-/* NOVIDADES */
+  /* NOVIDADES */
 
   .nov {
     margin-left: 0px; /* Ajusta a margem do bloco de texto de novidades */
   }
 
-  .novidade{
+  .novidade {
     width: 1020px;
   }
-/* CONTATO */
+  /* CONTATO */
   .contato {
     padding-top: 0px; /* Ajusta o preenchimento do bloco de contato */
   }
@@ -370,19 +359,17 @@ h4{
   }
 }
 
-
 @media only screen and (max-width: 430px) {
-
   .header {
     width: 500px;
   }
 
-.menu-pc ul li button {
-  width: 74px;
-  height: 60px;
-  margin-inline: 1px;
-  font-size: 14px;
-}
+  .menu-pc ul li button {
+    width: 74px;
+    height: 60px;
+    margin-inline: 1px;
+    font-size: 14px;
+  }
 
   .menu-pc ul {
     padding: 20px 0px; /* Ajusta o preenchimento do menu */
@@ -410,83 +397,81 @@ h4{
     width: calc(100% - 20px); /* Ajusta a largura do bloco de texto sobre */
   }
 
-  .img1{
-    padding: 0 0 0 10px ;
+  .img1 {
+    padding: 0 0 0 10px;
     margin: 0;
     margin-top: 150px;
-    ;
   }
 
-/* SOBRE */
-.img2 {
-  margin-left: 25px; /* Ajusta a margem da imagem sobre */
-  width: 350px; /* Ajusta a largura da imagem sobre */
-  margin-top: 20px; /* Ajusta a margem superior da imagem sobre */
-}
+  /* SOBRE */
+  .img2 {
+    margin-left: 25px; /* Ajusta a margem da imagem sobre */
+    width: 350px; /* Ajusta a largura da imagem sobre */
+    margin-top: 20px; /* Ajusta a margem superior da imagem sobre */
+  }
 
-.falando-sobre {
-  font-size: 15px;
-  margin-top: -40px;
-}
+  .falando-sobre {
+    font-size: 15px;
+    margin-top: -40px;
+  }
 
-.eu{
-  height: 570px;
-}
+  .eu {
+    height: 570px;
+  }
 
-/* POTFOLIO */
-  
-.img3 {
-  margin-left: 5px; /* Ajusta a margem da imagem do portfólio */
-  width: 410px; /* Ajusta a largura da imagem do portfólio */
-  margin-top: 0px; /* Ajusta a margem superior da imagem do portfólio */
-}
+  /* POTFOLIO */
 
-.port {
-  margin: 0px; /* Ajusta a margem do bloco de texto do portfólio */
-}
+  .img3 {
+    margin-left: 5px; /* Ajusta a margem da imagem do portfólio */
+    width: 410px; /* Ajusta a largura da imagem do portfólio */
+    margin-top: 0px; /* Ajusta a margem superior da imagem do portfólio */
+  }
 
-.spotify{ 
-  width: 400px;
-  margin: 0px;
-}
+  .port {
+    margin: 0px; /* Ajusta a margem do bloco de texto do portfólio */
+  }
 
-/* NOVIDADES */
+  .spotify {
+    width: 400px;
+    margin: 0px;
+  }
 
-.nov {
-  margin-left: 0px; /* Ajusta a margem do bloco de texto de novidades */
+  /* NOVIDADES */
 
-}
+  .nov {
+    margin-left: 0px; /* Ajusta a margem do bloco de texto de novidades */
+  }
 
-.novidade{
-  width: 415px;
-  margin: 0;
-  margin-top: 150px;
-}
+  .novidade {
+    width: 415px;
+    margin: 0;
+    margin-top: 150px;
+  }
 
-/* CONTATO */
+  /* CONTATO */
 
-.contato {
-  padding-top: 50px; /* Ajusta o preenchimento do bloco de contato */
-}
+  .contato {
+    padding-top: 50px; /* Ajusta o preenchimento do bloco de contato */
+  }
 
-.card {
-  padding: 0px 100px; /* Ajusta o preenchimento do bloco de mídias sociais */
-  margin: 0 /* Ajusta a margem superior do bloco de mídias sociais */
-}
+  .card {
+    padding: 0px 100px; /* Ajusta o preenchimento do bloco de mídias sociais */
+    margin: 0; /* Ajusta a margem superior do bloco de mídias sociais */
+  }
 
-.qual{
-  margin: 0;
-  
-}
+  .qual {
+    margin: 0;
+  }
 
-.email, .botao{
-  margin-top: 10%;
-  margin-left: 23%;
-}
-  
-h4{
-  margin: 0px;
-  padding-left: 20%;
-  padding-top: 30%;
-}
+  .email,
+  .botao {
+    margin-top: 10%;
+    margin-left: 23%;
+  }
+
+  h4 {
+    margin: 0px;
+    padding-left: 20%;
+    padding-top: 30%;
+  }
 }
