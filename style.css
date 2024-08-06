@@ -3,6 +3,7 @@
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -24,15 +25,14 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 95%;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  margin-top: -5%;
+  margin-top: -6%;
 }
 
 .nav-links a {
   color: #fff;
   margin: 3rem;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .logo img {
@@ -121,20 +121,137 @@ ul {
 
 main {
   text-align: center;
+  margin-top: -30px;
 }
 
 main h1 {
-  margin-top: 2rem;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 
 main h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  margin-bottom: 2.7rem;
 }
 
 main p {
   font-size: 1.2rem;
-  max-width: 600px;
+  max-width: 500px;
+  font-size: 1.4rem;
   margin: 0 auto;
+  color: #BCBCBC;
+}
+
+.AboutMe {
+  width: 100%;
+  max-width: 1758px;
+  height: auto;
+  position: relative;
+  color: white;
+  top: 50px;
+}
+
+.Group {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 100px;
+}
+
+.Timeline {
+  width: 80%;
+  height: 32px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+
+.Rectangle {
+  width: 99%;
+  height: 12px;
+  position: absolute;
+  background: white;
+}
+
+.Ellipse1, .Ellipse2, .Ellipse3 {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  background: white;
+  border-radius: 100%;
+  top: -8px;
+}
+
+.Ellipse1 {
+  left: -2px;
+}
+
+.Ellipse2 {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Ellipse3 {
+  right: 0;
+}
+
+.Year {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  word-wrap: break-word;
+  margin-top: -10px;
+}
+
+#y2022 {
+  left: 8%;
+  top: 12px;
+}
+
+#y2023 {
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+}
+
+#y2024 {
+  right: 8%;
+  top: 10px;
+}
+
+.Description {
+  width: 90%;
+  max-width: 300px;
+  margin: 100px auto;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+#desc2022 {
+  top: 100px;
+  margin: 0px;
+  margin-top: 45px;
+  margin-left: 20px;
+
+}
+
+#desc2023 {
+  margin-top: -103px;
+}
+
+#desc2024 {
+  margin-top: -323px;
+  margin-right: 20px;
+}
+
+.Header {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
 }
