@@ -221,7 +221,7 @@ main p {
 
 .Description {
   width: 90%;
-  max-width: 300px;
+  max-width: 370px;
   margin: 100px auto;
   text-align: center;
   color: white;
@@ -239,15 +239,15 @@ main p {
 }
 
 #desc2023 {
-  margin-top: -103px;
+  margin-top: -253px;
 }
 
 #desc2024 {
-  margin-top: -323px;
+  margin-top: -567px;
   margin-right: 20px;
 }
 
-.Header {
+.title {
   width: 100%;
   text-align: center;
   color: white;
@@ -255,3 +255,128 @@ main p {
   font-weight: 600;
   margin-top: 1rem;
 }
+
+.Projects {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  padding: 20px;
+  margin-top: 780px;
+  padding-right:700px
+}
+
+.ProjectsTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding-left: 480px;
+}
+
+.Project1, .Project2 {
+  width: 100%;
+  max-width: 660px;
+  margin: 20px auto;
+  position: relative;
+  background: #0F1624;
+  box-shadow: 0px 0px 12px white;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius:10px;
+  border-top-left-radius:40px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.Project2 {
+  margin-left: 135%;
+  margin-top: -186%;
+
+}
+
+.Rectangle4 {
+  width: 100%;
+  height: 400px;
+  margin-top: 5%;
+  background: #0F1624;
+  box-shadow: 0px 0px 12px white;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius:50px;
+  border-bottom-right-radius:50px;
+}
+
+.GradientLine {
+  width: 300px;
+  height: 4px;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 67%, #945DD6 100%);
+  border-radius: 83px;
+  margin: 20px auto;
+}
+
+.Description {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 67%, #945DD6 100%);
+  border-radius: 83px;
+  margin: 20px auto;
+  border: none;
+  font-size: 17px; /* Tamanho da fonte */
+  color: white; /* Cor do texto */
+  font-weight: 550;
+  letter-spacing: 1px; /* Espaçamento entre letras */
+}
+
+.container {
+  max-width: 400px;
+  margin-left: -55%;
+  margin-top: 3%;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section1{
+  
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+ul {
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+
+
