@@ -43,81 +43,62 @@ ul {
   list-style: none;
 }
 
-.example-2 {
+.social-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 0px 15px #00000027;
+  border-radius: 5em;
 }
-.example-2 .icon-content {
-  margin: 0 20px;
-  position: relative;
-}
-.example-2 .icon-content .tooltip {
-  position: absolute;
-  top: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff;
-  padding: 6px 10px;
-  border-radius: 5px;
-  opacity: 0;
-  visibility: hidden;
-  font-size: 14px;
-  transition: all 0.3s ease;
-}
-.example-2 .icon-content:hover .tooltip {
-  opacity: 1;
-  visibility: visible;
-  top: -50px;
-}
-.example-2 .icon-content a {
-  position: relative;
-  overflow: hidden;
+
+.social-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  color: #4d4d4d;
-  background-color: #fff;
-  transition: all 0.3s ease-in-out;
-}
-.example-2 .icon-content a:hover {
-  box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
-}
-.example-2 .icon-content a svg {
-  position: relative;
-  z-index: 1;
-  width: 30px;
-  height: 30px;
-}
-.example-2 .icon-content a:hover {
-  color: white;
-}
-.example-2 .icon-content a .filled {
-  position: absolute;
-  top: auto;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 0;
-  background-color: #000;
-  transition: all 0.3s ease-in-out;
-}
-.example-2 .icon-content a:hover .filled {
-  height: 100%;
+  margin: 0 10px;
+  box-shadow: 0px 0px 4px #00000027;
+  transition: 0.3s;
 }
 
-.example-2 .icon-content a[data-social="linkedin"] .filled,
-.example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
-  background-color: #0274b3;
+.social-button:hover {
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 6px 3px #00000027;
 }
 
-.example-2 .icon-content a[data-social="github"] .filled,
-.example-2 .icon-content a[data-social="github"] ~ .tooltip {
-  background-color: #24262a;
+.social-buttons svg {
+  transition: 0.5s;
+  height: 20px;
 }
+
+.github {
+  background-color: #333;
+}
+
+.github svg {
+  width: 25px;
+  height: 25px;
+  fill: #f2f2f2;
+}
+
+.github:hover svg {
+  fill: #333;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.linkedin svg {
+  fill: #f2f2f2;
+}
+
+.linkedin:hover svg {
+  fill: #0077b5;
+}
+
 
 main {
   text-align: center;
@@ -388,71 +369,48 @@ li {
 
 
 
-
 .site-footer {
-  background-color: #000;
+  position: relative;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  display: flex;
-
+  background-color: black;
+  overflow: hidden;
 }
 
 .footer-container {
-  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;;
-  max-width: 1200px; /* Ajuste conforme a largura do seu layout */
-  padding: px;
-  max-width: 100%; /* Certifique-se de que o contêiner não está limitando o tamanho da imagem */
-  padding: 100px 20px; /* Ajuste o padding para adicionar ou remover espaço ao redor do contêiner */
-}
-
-.footer-right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
 }
 
 .footer-left {
-  padding-left: 100px;
-}
-
-.footer-left h3 {
-margin-left: -9rem;
-}
-
-.footer-left p {
-  margin-left: -9rem;
-  font-size: 15px;
-}
-
-.footer-right ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
-  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3rem;
 }
 
-.footer-left {
-  text-align: left;
-}
-
-.footer-right a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.footer-right {
-  text-align: right;
+.footer-image {
+  display: flex;
+  align-items: center;
+  height: 170px;
+  margin: auto;
 }
 
 .logofooter {
-  width: 300px;
+  height: 450px;
+  width: 450px;
+  margin-top: 1.4rem;
 }
 
-/* From Uiverse.io by aadium */ 
+.footer-right {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
 .social-buttons {
   display: flex;
   justify-content: center;
@@ -508,4 +466,3 @@ margin-left: -9rem;
 .linkedin:hover svg {
   fill: #0077b5;
 }
-
