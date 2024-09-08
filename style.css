@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -15,6 +15,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/* HEADER */
 
 header {
   width: 100%;
@@ -30,9 +32,16 @@ header {
 }
 
 .nav-links a {
-  color: #fff;
+  color: #d1d1d1;
   margin: 3rem;
   font-size: 1.6rem;
+  display: inline-block;
+  transition: transform 0.4s ease, color 0.4s ease;
+}
+
+.nav-links a:hover {
+  color: #fff;
+  transform: scale(1.1);
 }
 
 .logo img {
@@ -99,7 +108,6 @@ ul {
   fill: #0077b5;
 }
 
-
 main {
   text-align: center;
   margin-top: -30px;
@@ -119,114 +127,10 @@ main p {
   max-width: 500px;
   font-size: 1.4rem;
   margin: 0 auto;
-  color: #BCBCBC;
+  color: #bcbcbc;
 }
 
-.AboutMe {
-  width: 100%;
-  max-width: 1758px;
-  height: auto;
-  position: relative;
-  color: white;
-  top: 50px;
-}
-
-.Group {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 100px;
-}
-
-.Timeline {
-  width: 80%;
-  height: 32px;
-  margin: 0 auto;
-  position: relative;
-  top: 50px;
-}
-
-.Rectangle {
-  width: 99%;
-  height: 12px;
-  position: absolute;
-  background: white;
-}
-
-.Ellipse1, .Ellipse2, .Ellipse3 {
-  width: 32px;
-  height: 32px;
-  position: absolute;
-  background: white;
-  border-radius: 100%;
-  top: -8px;
-}
-
-.Ellipse1 {
-  left: -2px;
-}
-
-.Ellipse2 {
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.Ellipse3 {
-  right: 0;
-}
-
-.Year {
-  position: absolute;
-  color: white;
-  font-size: 2rem;
-  font-weight: 600;
-  word-wrap: break-word;
-  margin-top: -10px;
-}
-
-#y2022 {
-  left: 8%;
-  top: 12px;
-}
-
-#y2023 {
-  left: 50%;
-  top: 10px;
-  transform: translateX(-50%);
-}
-
-#y2024 {
-  right: 8%;
-  top: 10px;
-}
-
-.Description {
-  width: 90%;
-  max-width: 370px;
-  margin: 100px auto;
-  text-align: center;
-  color: white;
-  font-size: 1rem;
-  font-weight: 600;
-  word-wrap: break-word;
-}
-
-#desc2022 {
-  top: 100px;
-  margin: 0px;
-  margin-top: 45px;
-  margin-left: 20px;
-
-}
-
-#desc2023 {
-  margin-top: -253px;
-}
-
-#desc2024 {
-  margin-top: -567px;
-  margin-right: 20px;
-}
+/* ABOUT ME */
 
 .title {
   width: 100%;
@@ -237,13 +141,15 @@ main p {
   margin-top: 1rem;
 }
 
+/* PROJECTS */
+
 .Projects {
   width: 100%;
   max-width: 1200px;
   position: relative;
   padding: 20px;
   margin-top: 780px;
-  padding-right:700px
+  padding-right: 700px;
 }
 
 .ProjectsTitle {
@@ -254,16 +160,16 @@ main p {
   padding-left: 480px;
 }
 
-.Project1, .Project2 {
+.Project1,.Project2 {
   width: 100%;
   max-width: 660px;
   margin: 20px auto;
   position: relative;
-  background: #0F1624;
+  background: #0f1624;
   box-shadow: 0px 0px 12px white;
   border-bottom-right-radius: 40px;
-  border-bottom-left-radius:10px;
-  border-top-left-radius:40px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 40px;
   border-top-right-radius: 10px;
   padding: 20px;
   text-align: center;
@@ -275,25 +181,24 @@ main p {
 .Project2 {
   margin-left: 135%;
   margin-top: -186%;
-
 }
 
 .Rectangle4 {
   width: 100%;
   height: 400px;
   margin-top: 5%;
-  background: #0F1624;
+  background: #0f1624;
   box-shadow: 0px 0px 12px white;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
-  border-bottom-left-radius:50px;
-  border-bottom-right-radius:50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .GradientLine {
   width: 300px;
   height: 4px;
-  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 67%, #945DD6 100%);
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 67%, #945dd6 100%);
   border-radius: 83px;
   margin: 20px auto;
 }
@@ -312,7 +217,7 @@ main p {
   align-items: center;
   width: 200px;
   height: 60px;
-  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 67%, #945DD6 100%);
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 67%, #945dd6 100%);
   border-radius: 83px;
   margin: 20px auto;
   border: none;
@@ -322,6 +227,8 @@ main p {
   letter-spacing: 1px; /* Espaçamento entre letras */
 }
 
+/*CURRICULUM*/
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -329,19 +236,21 @@ main p {
   margin: 3% auto;
 }
 
-.section, .section1 {
+.section,
+.section1 {
   margin-bottom: 20px; /* Adiciona 20px de espaço entre as seções */
 }
 
 .column-left,
 .column-right {
-  width: 35%; 
+  width: 35%;
 }
 
-.section ul li::before, .section1 ul li::before {
-  content: "•";  /* Define o conteúdo como um ponto */
-  color: #fff;   /* Cor do ponto, pode ajustar conforme necessário */
-  margin-right: 8px;  /* Espaçamento entre o ponto e o texto */
+.section ul li::before,
+.section1 ul li::before {
+  content: "•"; /* Define o conteúdo como um ponto */
+  color: #fff; /* Cor do ponto, pode ajustar conforme necessário */
+  margin-right: 8px; /* Espaçamento entre o ponto e o texto */
 }
 
 h2 {
@@ -367,7 +276,7 @@ li {
   margin-bottom: 5px;
 }
 
-
+/* FOOTER */
 
 .site-footer {
   position: relative;
