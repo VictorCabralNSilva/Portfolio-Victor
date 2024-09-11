@@ -32,7 +32,7 @@ header {
 }
 
 .nav-links a {
-  color: #d1d1d1;
+  color: #b3b3b3;
   margin: 3rem;
   font-size: 1.6rem;
   display: inline-block;
@@ -83,43 +83,51 @@ ul {
 }
 
 .github {
-  background-color: #333;
+  background-color: #000000;
 }
 
 .github svg {
   width: 25px;
   height: 25px;
-  fill: #f2f2f2;
+  fill: #000000;
 }
 
 .github:hover svg {
-  fill: #333;
+  fill: #000000;
 }
 
 .linkedin {
-  background-color: #0077b5;
+  background-color: #000000;
 }
 
 .linkedin svg {
-  fill: #f2f2f2;
+  fill: #000000;
 }
 
 .linkedin:hover svg {
-  fill: #0077b5;
+  fill: #000000;
 }
 
 main {
   text-align: center;
-  margin-top: -30px;
+  margin-top: -50px;
 }
 
 main h1 {
   font-size: 2.7rem;
 }
 
+main h1 span {
+  color:  #ffae00;
+}
+
 main h2 {
   font-size: 2.5rem;
-  margin-bottom: 2.7rem;
+  margin-bottom: 2.3rem;
+}
+
+main h2 span {
+color:#f0a500;
 }
 
 main p {
@@ -138,7 +146,56 @@ main p {
   color: white;
   font-size: 2.5rem;
   font-weight: 600;
-  margin-top: 1rem;
+  margin-top: 4rem;
+  
+}
+
+.img-about img {
+  width: 360px;
+  border-radius: 20px;
+  margin-top: 2rem;
+  margin-left: 50px;
+  transition: 1.5s ease;
+}
+
+.img-about img:hover {
+  transform: scale(1.1);
+}
+
+
+section.about-me{
+  padding: 40px ;
+}
+
+section.about-me .flex{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.about-me .txt-about{
+  color: #fff;
+  margin-left: 500px;
+  margin-top: -455px;
+}
+
+.about-me .txt-about h2{
+  color: #fff;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.about-me .txt-about h2 span{
+  color: #f0a500;
+  display: block;
+  
+}
+
+.about-me .txt-about p{
+  margin: 20px 0;
+  width: 700px;
+  font-size: large;
 }
 
 /* PROJECTS */
@@ -148,7 +205,7 @@ main p {
   max-width: 1200px;
   position: relative;
   padding: 20px;
-  margin-top: 780px;
+  margin-top: 60px;
   padding-right: 700px;
 }
 
@@ -158,6 +215,7 @@ main p {
   font-weight: 600;
   margin-bottom: 30px;
   padding-left: 480px;
+  margin-bottom: 80px;
 }
 
 .Project1,.Project2 {
