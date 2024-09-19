@@ -1,0 +1,49 @@
+/*CURRICULUM*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-top: 5%;
+  }
+  
+  .section,
+  .section1 {
+    margin-bottom: 20px; /* Adiciona 20px de espaço entre as seções */
+  }
+  
+  .column-left,
+  .column-right {
+    width: 35%;
+  }
+  
+  .section ul li::before,
+  .section1 ul li::before {
+    content: "•"; /* Define o conteúdo como um ponto */
+    color: #fff; /* Cor do ponto, pode ajustar conforme necessário */
+    margin-right: 8px; /* Espaçamento entre o ponto e o texto */
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  

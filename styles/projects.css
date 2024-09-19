@@ -1,0 +1,73 @@
+
+/* PROJECTS */
+
+.Projects {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    padding: 20px;
+    margin-top: 60px;
+    padding-right: 700px;
+  }
+  
+  .Project1,.Project2 {
+    width: 100%;
+    max-width: 660px;
+    margin: 20px auto;
+    position: relative;
+    background: #0f1624;
+    box-shadow: 0px 0px 12px white;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 100px;
+  }
+  
+  .Project2 {
+    margin-left: 135%;
+    margin-top: -98%;
+  }
+  
+  .GradientLine {
+    width: 300px;
+    height: 4px;
+    background: linear-gradient(270deg, #13adc7 0%, #6978d1 67%, #945dd6 100%);
+    border-radius: 83px;
+    margin: 20px auto;
+  }
+  
+  .Description {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(270deg, #13adc7 0%, #6978d1 67%, #945dd6 100%);
+    border-radius: 83px;
+    margin: 20px auto;
+    border: none;
+    font-size: 17px; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
+    font-weight: 550;
+    letter-spacing: 1px; /* Espaçamento entre letras */
+    transition: 0.5s ease;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+  }
+  

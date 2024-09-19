@@ -1,0 +1,111 @@
+
+  /* FOOTER */
+  
+  .site-footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+  }
+  
+  .footer-left a {
+    color: #f0a500; /* Define a cor branca para o link */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: transform 0.3s ease, color 0.3s ease; /* Transição suave para o efeito de crescimento e cor */
+}
+
+.footer-left a:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do link em 10% ao passar o mouse */
+}
+
+  .footer-image {
+    display: flex;
+    align-items: center;
+    height: 170px;
+    margin: auto;
+  }
+  
+  .logofooter {
+    height: 450px;
+    width: 450px;
+    margin-top: 1.4rem;
+  }
+  
+  .footer-right {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+  
+ 
+  .social-buttons {
+    display: flex;
+  }
+  
+  .social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    box-shadow: 0px 0px 4px #00000027;
+    transition: 0.3s;
+  }
+  
+  .social-button:hover {
+    background-color: #000000;
+    box-shadow: 0px 0px 6px 3px #00000027;
+  }
+  
+  .social-buttons svg {
+    transition: 0.5s;
+    height: 20px;
+  }
+  
+  .github {
+    background-color: #ffae00;
+  }
+  
+  .github svg {
+    width: 25px;
+    height: 25px;
+    fill: #000000;
+  }
+  
+  .github:hover svg {
+    fill: #ffffff;
+  }
+  
+  .linkedin {
+    background-color: #ffae00;
+  }
+  
+  .linkedin svg {
+    fill: #000000;
+  }
+  
+  .linkedin:hover svg {
+    fill: #ffffff;
+  }
+  
+  
+
+  
