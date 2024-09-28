@@ -24,8 +24,14 @@
     margin-left: 3rem;
   }
 
+  .footer-left h3{
+    font-size: 14px;
+    margin-top: -3px;
+  }
+
   .footer-container {
-    font-size: 10px;
+    font-size: 8px;
+    margin-left: -25px;
   }
   
   .footer-left a {
@@ -41,20 +47,19 @@
   .footer-image {
     display: flex;
     align-items: center;
-    height: 120px;
+    height: 100px;
     margin: auto;
   }
   
   .logofooter {
-    height: 330px;
-    width: 330px;
-    margin-top: 1.4rem;
+    height: 250px;
+    width: 250px;
+    margin-top: 1.2rem;
   }
   
   .footer-right {
     display: flex;
     flex-direction: row;
-    margin: auto;
   }
   
  

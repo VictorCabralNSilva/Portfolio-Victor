@@ -1,19 +1,17 @@
 /* Responsividade Largura: width -- Altura: height */
 
 @media only screen and (max-width: 1024px) {
-
-  body{
+  body {
     margin-left: 50px;
   }
-  
+
   /* HEADER */
 
-  
   header {
     width: 100%;
   }
 
-  .nav-links{
+  .nav-links {
     display: flex;
     gap: 20px;
     align-items: center; /* Centraliza os links */
@@ -59,7 +57,6 @@
     font-size: 2.7rem;
   }
 
-
   main h2 {
     font-size: 2.5rem;
     margin-bottom: 2.3rem;
@@ -91,7 +88,6 @@
     transition: 0.5s;
     height: 20px;
   }
-
 
   .github svg {
     width: 20px;
@@ -188,52 +184,45 @@
     margin-top: 100px;
   }
 
-
   /*CURRICULUM*/
-
 
   .container {
     margin-top: 10%;
   }
-  
+
   .column-left,
   .column-right {
     width: 70%;
-    
   }
-  
+
   .column-left {
-   margin-left: -20%;
-   max-width: 200px;
+    margin-left: -20%;
+    max-width: 200px;
   }
-  
-  .column-right{
+
+  .column-right {
     margin-right: -20%;
     max-width: 300px;
   }
-  
+
   h2 {
     font-size: 18px;
     margin-bottom: 10px;
   }
-  
+
   h3 {
     font-size: 14px;
     margin-bottom: 10px;
   }
-  
+
   p {
     margin-bottom: 10px;
   }
-  
-  ul {
-    margin-left: 12px;
-  }
-  
+
   li {
     margin-bottom: 2px;
   }
-  
+
   /* FOOTER */
 
   .site-footer {
@@ -244,22 +233,20 @@
     background-color: black;
     margin-left: -30px;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
-  body{
+  body {
     margin-left: 50px;
   }
-  
+
   /* HEADER */
 
-  
   header {
     width: 100%;
   }
 
-  .nav-links{
+  .nav-links {
     display: flex;
     gap: 20px;
     align-items: center; /* Centraliza os links */
@@ -305,7 +292,6 @@
     font-size: 2.7rem;
   }
 
-
   main h2 {
     font-size: 2.5rem;
     margin-bottom: 2.3rem;
@@ -337,7 +323,6 @@
     transition: 0.5s;
     height: 20px;
   }
-
 
   .github svg {
     width: 20px;
@@ -434,59 +419,53 @@
     margin-top: 100px;
   }
 
-
   /*CURRICULUM*/
-
 
   .container {
     margin-top: 10%;
   }
-  
+
   .column-left,
   .column-right {
     width: 70%;
-    
   }
-  
+
   .column-left {
-   margin-left: -20%;
-   max-width: 200px;
+    margin-left: -20%;
+    max-width: 200px;
   }
-  
-  .column-right{
+
+  .column-right {
     margin-right: -20%;
     max-width: 300px;
   }
-  
+
   h2 {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 10px;
   }
-  
+
   h3 {
-    font-size: 14px;
+    font-size: 11px;
     margin-bottom: 10px;
   }
-  
+
   p {
-    margin-bottom: 10px;
+    font-size: 14px;
   }
-  
-  ul {
-    margin-left: 12px;
-  }
-  
+
   li {
     margin-bottom: 2px;
+    font-size: 10px;
   }
-  
+
   /* FOOTER */
 
   .site-footer {
     position: relative;
     bottom: 0;
     left: 0;
-    width: 115%;
+    width: 120%;
     background-color: black;
   }
 
@@ -497,13 +476,6 @@
     margin: auto;
   }
 
-  .footer-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 2rem;
-  }
-
   .footer-left h3,
   p {
     font-size: 7px;
@@ -512,37 +484,16 @@
   .footer-left a:hover {
     transform: inherit; /* Aumenta o tamanho do link em 10% ao passar o mouse */
   }
-
-  .footer-image {
-    display: flex;
-    align-items: center;
-    height: 90px;
-    margin: auto;
-  }
-
-  .logofooter {
-    height: 250px;
-    width: 250px;
-    margin-top: 1rem;
-    margin-left: 0px;
-  }
-
-  .footer-right {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-  }
 }
 
 @media only screen and (max-width: 480px) {
-  
-body{
-  margin-left: 185px;
-}
+  body {
+    margin-left: 205px;
+  }
 
   /* HEADER */
 
-  .nav-links{
+  .nav-links {
     display: flex;
     gap: 20px;
     align-items: center; /* Centraliza os links */
@@ -645,64 +596,56 @@ body{
 
   /*CURRICULUM*/
 
-.container {
-  margin-top: 10%;
-}
+  .container {
+    margin-top: 10%;
+  }
 
-.column-left,
-.column-right {
-  width: 70%;
-  
-}
+  .column-left,
+  .column-right {
+    width: 70%;
+  }
 
-.column-left {
- margin-left: -40%;
- max-width: 140px;
-}
+  .column-left {
+    margin-left: -40%;
+    max-width: 140px;
+  }
 
-.column-right{
-  margin-right: -30%;
-  max-width: 500px;
-}
+  .column-right {
+    margin-right: -30%;
+    max-width: 500px;
+  }
 
-h2 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
 
-h3 {
-  font-size: 14px;
-  margin-bottom: 10px;
-}
+  h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
 
-p {
-  margin-bottom: 6px;
-}
+  p {
+    margin-bottom: 6px;
+  }
 
-ul {
-  margin-left: 22px;
-  padding-left: 10px;
-}
+  ul {
+    margin-left: 22px;
+    padding-left: 10px;
+  }
 
-li {
-  margin-bottom: 6px;
-}
+  li {
+    margin-bottom: 6px;
+  }
 
   /* FOOTER */
 
   .site-footer {
-    width: 225%;
-  }
-
-  .footer-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: auto;
+    width: 255%;
   }
 
   .footer-left {
-    margin-left: 1.5rem;
+    margin-left: 5rem;
   }
 
   .footer-left h3,
@@ -713,52 +656,28 @@ li {
   .footer-left a:hover {
     transform: inherit; /* Aumenta o tamanho do link em 10% ao passar o mouse */
   }
-
-  .footer-image {
-    display: flex;
-    align-items: center;
-    height: 90px;
-    margin-left: -70px;
-  }
-
-  .logofooter {
-    height: 180px;
-    width: 180px;
-    margin-top: 0.6rem;
-  }
-
-  .footer-right {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-  }
 }
 
 @media only screen and (max-width: 375px) {
- 
-body{
-  margin-left: 130px;
-}
-
   /* HEADER */
 
-  .nav-links{
+  .nav-links {
     display: flex;
     align-items: center; /* Centraliza os links */
-    margin-left: -45%;
+    margin: 10% 0 0 -125%;
   }
 
   .nav-links a {
     color: #ffffff;
-    margin: 0.7rem;
+    margin: 0.5rem;
     font-size: 0.8rem;
     white-space: nowrap;
   }
 
   .logo img {
     height: 150px;
-    margin-top: -50%;
-    margin-left: -85%;
+    margin-top: -43%;
+    margin-left: -135%;
   }
 
   ul {
@@ -811,9 +730,10 @@ body{
   /* ABOUT ME */
 
   .img-about img {
-    width: 180px;
+    width: 220px;
     border-radius: 10%;
     margin-top: 4rem;
+    margin-left: -40px;
   }
 
   .img-about img:hover {
@@ -822,7 +742,12 @@ body{
 
   .about-me .txt-about {
     margin-left: 200px;
-    margin-top: -280px;
+    margin-top: -335px;
+  }
+
+  .about-me .txt-about h2{
+    width: 280px;
+    margin-left: -00px;
   }
 
   .about-me .txt-about h2 {
@@ -833,14 +758,14 @@ body{
 
   .about-me .txt-about p {
     margin: 10px 0;
-    width: 240px;
+    width: 250px;
     font-size: small;
   }
 
   /* PROJECTS */
 
   .Projects {
-    width: 190%;
+    width: 300%;
     position: relative;
     margin-top: -50px;
     padding-right: 0px;
@@ -848,64 +773,56 @@ body{
 
   /*CURRICULUM*/
 
-.container {
-  margin-top: 10%;
-}
+  .title{
+    display: flex;
+    justify-content: center;
+  }
 
-.column-left,
-.column-right {
-  width: 70%;
-  
-}
+  .container {
+    margin-top: 10%;
+  }
 
-.column-left {
- margin-left: -20%;
- max-width: 170px;
-}
+  .column-left,
+  .column-right {
+    width: 70%;
+  }
 
-.column-right{
-  margin-right: -30%;
-  max-width: 300px;
-}
+  .column-left {
+    margin-left: -20%;
+    max-width: 170px;
+  }
 
-h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
+  .column-right {
+    margin-right: -30%;
+    max-width: 300px;
+  }
 
-h3 {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 
-p {
-  margin-bottom: 5px;
-}
+  h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
 
-ul {
-  margin-left: 20px;
-  padding-left: 10px;
-}
+  p {
+    margin-bottom: 5px;
+  }
 
-li {
-  margin-bottom: 5px;
-}
+  li {
+    margin-bottom: 5px;
+  }
 
   /* FOOTER */
 
   .site-footer {
-    width: 215%;
-  }
-
-  .footer-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: auto;
+    width: 345%;
   }
 
   .footer-left {
-    margin-left: 1.5rem;
+    margin-left: 5%;
   }
 
   .footer-left h3,
@@ -917,22 +834,9 @@ li {
     transform: inherit; /* Aumenta o tamanho do link em 10% ao passar o mouse */
   }
 
-  .footer-image {
-    display: flex;
-    align-items: center;
-    height: 90px;
-    margin-left: -120px;
-  }
-
   .logofooter {
     height: 180px;
     width: 180px;
-    margin-top: 1.4rem;
-  }
-
-  .footer-right {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
+    margin-top: 5%;
   }
 }
