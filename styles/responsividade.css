@@ -1,15 +1,8 @@
 /* Responsividade Largura: width -- Altura: height */
 
 @media only screen and (max-width: 1024px) {
-  body {
-    margin-left: 50px;
-  }
 
   /* HEADER */
-
-  header {
-    width: 100%;
-  }
 
   .nav-links {
     display: flex;
@@ -40,8 +33,8 @@
     height: 250px;
     display: flex;
     align-items: center;
-    margin-top: -65%;
-    margin-left: -60px;
+    margin-top: -45%;
+    margin-left: 0px;
   }
 
   ul {
@@ -186,6 +179,10 @@
 
   /*CURRICULUM*/
 
+  .title{
+    width: 100px;
+  }
+
   .container {
     margin-top: 10%;
   }
@@ -229,10 +226,15 @@
     position: relative;
     bottom: 0;
     left: 0;
-    width: 110%;
+    width: 103%;
     background-color: black;
     margin-left: -30px;
   }
+
+  .footer-left {
+    margin-left: 6%;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -486,18 +488,15 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
-  body {
-    margin-left: 205px;
-  }
+@media only screen and (max-width: 700px) {
+ 
 
   /* HEADER */
 
   .nav-links {
     display: flex;
-    gap: 20px;
     align-items: center; /* Centraliza os links */
-    margin-left: -75%;
+    margin: 0% 20% 0 10%;
   }
 
   .nav-links a {
@@ -509,12 +508,12 @@
   .logo img {
     height: 200px;
     margin-top: -50%;
-    margin-left: -100%;
+    margin-left: -20%;
   }
 
   main {
-    text-align: center;
-    margin-top: 50px;
+    justify-content: center;
+    margin: 50px 0 0 50%;
   }
 
   main h1 {
@@ -558,10 +557,10 @@
   /* ABOUT ME */
 
   .img-about img {
-    width: 240px;
+    width: 300px;
     border-radius: 10%;
     margin-top: 4rem;
-    margin-left: -50px;
+    margin-left: 15%;
   }
 
   .img-about img:hover {
@@ -569,115 +568,124 @@
   }
 
   .about-me .txt-about {
-    margin-left: 220px;
-    margin-top: -370px;
+    margin-left: 300px;
+    margin-top: -450px;
   }
 
   .about-me .txt-about h2 {
-    font-size: 22px;
+    font-size: 30px;
     line-height: 30px;
-    margin-bottom: 10px;
+    margin: 0 0 10px 40%;
+    width: 400px;
   }
 
   .about-me .txt-about p {
-    margin: 10px 0;
-    width: 280px;
-    font-size: 14px;
+    margin: 0 0 0 40%;
+    width: 350px;
+    font-size: 16px;
+  }
+
+  .card { 
+    margin-top: 10px;
+    margin-left: 62%;
   }
 
   /* PROJECTS */
 
   .Projects {
-    width: 190%;
-    position: relative;
-    margin-top: -50px;
-    padding-right: 0px;
+    width: 150%;
+    margin: 0 0 0 60%;
   }
 
   /*CURRICULUM*/
 
+  
+  .title{
+    margin: 10% 0 10% 60%;
+  }
+
   .container {
-    margin-top: 10%;
+    margin: 0 0 0 60%;
   }
 
   .column-left,
   .column-right {
-    width: 70%;
+    width: 100%;
   }
 
   .column-left {
-    margin-left: -40%;
-    max-width: 140px;
+    margin-left: -50%;
+    max-width: 170px;
   }
 
   .column-right {
-    margin-right: -30%;
-    max-width: 500px;
+    margin-right: -70%;
+    max-width: 300px;
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
 
   h3 {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
   }
 
   p {
-    margin-bottom: 6px;
-  }
-
-  ul {
-    margin-left: 22px;
-    padding-left: 10px;
+    margin-bottom: 5px;
   }
 
   li {
-    margin-bottom: 6px;
+    margin-bottom: 5px;
   }
-
   /* FOOTER */
 
   .site-footer {
-    width: 255%;
+    width: 244%;
   }
 
   .footer-left {
-    margin-left: 5rem;
+    margin-left: 28%;
   }
 
   .footer-left h3,
   p {
     font-size: 7px;
   }
-
+  
   .footer-left a:hover {
     transform: inherit; /* Aumenta o tamanho do link em 10% ao passar o mouse */
   }
+
+  .logofooter {
+    height: 180px;
+    width: 180px;
+    margin-top: 5%;
+  }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
   /* HEADER */
 
   .nav-links {
     display: flex;
     align-items: center; /* Centraliza os links */
-    margin: 10% 0 0 -125%;
+    margin: 5% 30% 0 20%;
   }
 
   .nav-links a {
     color: #ffffff;
     margin: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     white-space: nowrap;
   }
 
   .logo img {
     height: 150px;
     margin-top: -43%;
-    margin-left: -135%;
+    margin-left: -15%;
   }
 
   ul {
@@ -686,12 +694,12 @@
 
   main {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20%;
+    margin-left: 100%;
   }
 
   main h1 {
     font-size: 2rem;
-    width: 400px;
   }
 
   main h2 {
@@ -708,9 +716,10 @@
   }
 
   .social-button {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
+    margin-top: 10px;
     margin-left: 20px;
     box-shadow: 0px 0px 4px #00000027;
     transition: 0.3s;
@@ -722,18 +731,18 @@
   }
 
   .github svg {
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     fill: #000000;
   }
 
   /* ABOUT ME */
 
   .img-about img {
-    width: 220px;
+    width: 300px;
     border-radius: 10%;
-    margin-top: 4rem;
-    margin-left: -40px;
+    margin-top: 6rem;
+    margin-left: 35%;
   }
 
   .img-about img:hover {
@@ -741,17 +750,17 @@
   }
 
   .about-me .txt-about {
-    margin-left: 200px;
-    margin-top: -335px;
+    margin-left: 700px;
+    margin-top: -455px;
   }
 
   .about-me .txt-about h2{
     width: 280px;
-    margin-left: -00px;
+    margin-left: 0px;
   }
 
   .about-me .txt-about h2 {
-    font-size: 22px;
+    font-size: 26px;
     line-height: 30px;
     margin-bottom: 10px;
   }
@@ -759,27 +768,30 @@
   .about-me .txt-about p {
     margin: 10px 0;
     width: 250px;
-    font-size: small;
+    font-size: 14px;
   }
 
+  .card{
+    margin-left: 68%;
+  }
   /* PROJECTS */
 
   .Projects {
-    width: 300%;
-    position: relative;
-    margin-top: -50px;
+    width: 600px;
     padding-right: 0px;
+    margin-left: 100%;
   }
 
   /*CURRICULUM*/
 
   .title{
     display: flex;
-    justify-content: center;
+    margin-left: 100%;
   }
 
   .container {
     margin-top: 10%;
+    margin-left: 100%;
   }
 
   .column-left,
@@ -788,12 +800,12 @@
   }
 
   .column-left {
-    margin-left: -20%;
+    margin-left: -50%;
     max-width: 170px;
   }
 
   .column-right {
-    margin-right: -30%;
+    margin-right: -50%;
     max-width: 300px;
   }
 
@@ -818,11 +830,11 @@
   /* FOOTER */
 
   .site-footer {
-    width: 345%;
+    width: 368%;
   }
 
   .footer-left {
-    margin-left: 5%;
+    margin-left: 35%;
   }
 
   .footer-left h3,
@@ -838,5 +850,5 @@
     height: 180px;
     width: 180px;
     margin-top: 5%;
-  }
+  } 
 }
