@@ -1,5 +1,243 @@
 /* Responsividade Largura: width -- Altura: height */
 
+@media only screen and (max-width: 1280px) {
+
+  /* HEADER */
+
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center; /* Centraliza os links */
+    margin-left: -10px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    font-weight: 500;
+    margin-top: 0;
+  }
+
+  .nav-links a {
+    white-space: nowrap;
+    color: #ffffff;
+    margin: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .logo img {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    margin-top: -45%;
+    margin-left: 0px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  main {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  main h1 {
+    font-size: 2.7rem;
+  }
+
+  main h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.3rem;
+  }
+
+  main p {
+    font-size: 1.2rem;
+    max-width: 500px;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    color: #bcbcbc;
+  }
+
+  .social-button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 0 9px;
+    box-shadow: 0px 0px 4px #00000027;
+    transition: 0.3s;
+  }
+
+  .social-button:hover {
+    background-color: #000000;
+    box-shadow: 0px 0px 6px 3px #00000027;
+  }
+
+  .social-buttons svg {
+    transition: 0.5s;
+    height: 20px;
+  }
+
+  .github svg {
+    width: 20px;
+    height: 20px;
+    fill: #000000;
+  }
+
+  .github:hover svg {
+    fill: #ffffff;
+  }
+
+  .linkedin {
+    background-color: #ffae00;
+  }
+
+  .linkedin svg {
+    fill: #000000;
+  }
+
+  .linkedin:hover svg {
+    fill: #ffffff;
+  }
+
+  /* ABOUT ME */
+
+  .img-about img {
+    width: 280px;
+    border-radius: 1cm;
+    margin-top: 4rem;
+    margin-left: -0px;
+  }
+
+  .img-about img:hover {
+    transform: inherit;
+  }
+
+  section.about-me {
+    padding-top: 0px;
+  }
+
+  section.about-me .flex {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .about-me .txt-about {
+    color: #fff;
+    margin-left: 200px;
+    margin-top: -420px;
+  }
+
+  .about-me .txt-about h2 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+  }
+
+  .about-me .txt-about p {
+    margin-left: 100px;
+    width: 450px;
+    font-size: 14px;
+  }
+
+  /* PROJECTS */
+
+  .Projects {
+    width: 80%;
+    max-width: 1000px;
+    position: relative;
+    padding: -0px;
+    margin-top: 0px;
+    padding-right: 0px;
+  }
+
+  .Project1,
+  .Project2 {
+    width: 85%;
+    max-width: 660px;
+    margin: 20px auto;
+    position: relative;
+    background: #0f1624;
+    box-shadow: 0px 0px 12px white;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 100px;
+  }
+
+  /*CURRICULUM*/
+
+  .title{
+    width: 100px;
+  }
+
+  .container {
+    margin-top: 10%;
+  }
+
+  .column-left,
+  .column-right {
+    width: 70%;
+  }
+
+  .column-left {
+    margin-left: -20%;
+    max-width: 200px;
+  }
+
+  .column-right {
+    margin-right: -20%;
+    max-width: 300px;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  li {
+    margin-bottom: 2px;
+  }
+
+  /* FOOTER */
+
+  .site-footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 103%;
+    background-color: black;
+    margin-left: -30px;
+  }
+
+  .footer-left {
+    margin-left: 6%;
+  }
+
+}
+
+
 @media only screen and (max-width: 1024px) {
 
   /* HEADER */
@@ -488,7 +726,7 @@
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media (min-width: 451px) and (max-width: 700px) {
  
 
   /* HEADER */
@@ -643,11 +881,11 @@
   /* FOOTER */
 
   .site-footer {
-    width: 244%;
+    width: 280%;
   }
 
   .footer-left {
-    margin-left: 28%;
+    margin-left: 31%;
   }
 
   .footer-left h3,
@@ -666,7 +904,7 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media (min-width: 345px) and (max-width: 450px) {
   /* HEADER */
 
   .nav-links {
@@ -830,7 +1068,7 @@
   /* FOOTER */
 
   .site-footer {
-    width: 368%;
+    width: 400%;
   }
 
   .footer-left {
